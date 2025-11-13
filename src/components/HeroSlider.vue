@@ -42,7 +42,7 @@ function close(){ selected.value = null }
       </div>
 
       <!-- Swiper -->
-      <div class="swiper-container-custom w-full max-w-[380px] sm:max-w-[680px] md:max-w-[760px] lg:max-w-none mx-auto">
+      <div class="swiper-container-custom w-full max-w-[280px] sm:max-w-[680px] md:max-w-[680px] lg:max-w-none mx-auto">
         <Swiper 
           :modules="[Autoplay, Pagination, Navigation, Keyboard, EffectCoverflow]" 
           :slides-per-view="1" 
