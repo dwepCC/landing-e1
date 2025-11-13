@@ -13,14 +13,14 @@ const emit = defineEmits(['close'])
       <div class="p-5">
         <div class="flex items-center justify-between">
           <h3 class="text-xl font-semibold">{{ props.item.name }}</h3>
-          <span class="text-xs uppercase bg-yellow-400 text-black px-2 py-1 rounded">{{ props.item.type }}</span>
+          <span class="text-xs uppercase bg-primary text-white px-2 py-1 rounded">{{ props.item.type }}</span>
         </div>
         <p class="text-gray-300 mt-2">{{ props.item.description }}</p>
         <ul class="mt-3 text-sm text-gray-300 list-disc list-inside">
           <li v-for="f in props.item.features" :key="f">{{ f }}</li>
         </ul>
         <div class="mt-5 flex gap-3">
-          <a href="/contact" class="bg-yellow-400 text-black px-4 py-2 rounded">Solicitar cotización</a>
+          <a href="/contact" class="bg-primary hover:bg-primary-hover text-white px-4 py-2 rounded">Solicitar cotización</a>
           <button @click="emit('close')" class="border border-gray-700 px-4 py-2 rounded">Cerrar</button>
         </div>
       </div>

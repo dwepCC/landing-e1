@@ -13,7 +13,7 @@ const router = createRouter({
       path: '/',
       component: DefaultLayout,
       children: [
-        { path: '', name: 'home', component: Home },
+        { path: '', name: 'home', component: Home, meta: { noTopPad: true } },
         { path: 'about', name: 'about', component: About },
         { path: 'services', name: 'services', component: Services },
         { path: 'fleet', name: 'fleet', component: Fleet },
