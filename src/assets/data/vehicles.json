@@ -1,0 +1,42 @@
+[
+  {
+    "id": "maquinaria-1",
+    "type": "maquinaria",
+    "name": "Excavadora 320D",
+    "image": "https://maxtracker.com/wp-content/uploads/2022/02/maquinaria-1200x750-1-1024x640.jpg",
+    "description": "Excavadora de alto rendimiento para operaciones mineras.",
+    "features": ["Motor diésel 200HP", "Cabina climatizada", "Sistema hidráulico de precisión"]
+  },
+  {
+    "id": "combi-1",
+    "type": "combi",
+    "name": "Combi 15 pasajeros",
+    "image": "https://www.mitsuiautomotriz.com/sites/default/files/2023-02/CONOCELOS_TOYOTA_Hiace-02.jpg",
+    "description": "Transporte de personal con seguridad y comodidad.",
+    "features": ["A/A", "ABS", "GPS"]
+  },
+  {
+    "id": "camioneta-1",
+    "type": "camioneta",
+    "name": "Camioneta 4x4",
+    "image": "https://scgrental.com/admin/img/proyectos/2-whatsapp-image-2024-03-14-at-10.12.02-4.jpeg",
+    "description": "Tracción integral para terrenos exigentes.",
+    "features": ["4x4", "Airbags", "Suspensión reforzada"]
+  },
+  {
+    "id": "coaster-1",
+    "type": "coaster",
+    "name": "Coaster 30 pasajeros",
+    "image": "https://d1hv7ee95zft1i.cloudfront.net/custom/truck-model-photo/original/hyundai-midi-bus-county-long-61a7693155096.webp",
+    "description": "Transporte masivo de personal.",
+    "features": ["A/A", "Cinturones", "Cámara retro"]
+  },
+  {
+    "id": "volquete-1",
+    "type": "volquete",
+    "name": "Volquete 20m³",
+    "image": "https://rci.pe/wp-content/uploads/2023/12/xIMG2.png.webp.pagespeed.ic.RBi0NqsMvb.webp",
+    "description": "Movilización de material y desmonte.",
+    "features": ["Caja reforzada", "Frenos neumáticos", "GPS"]
+  }
+]
