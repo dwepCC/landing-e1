@@ -12,7 +12,7 @@ const filtered = computed(()=> filter.value==='all'? vehicles : vehicles.filter(
   <section class="bg-light">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="flex flex-wrap gap-3">
-        <button v-for="t in types" :key="t" @click="filter=t" class="px-4 py-2 rounded border border-gray-700" :class="filter===t ? 'bg-primary hover:bg-primary-hover text-white border-primary' : 'text-primary'">{{ t }}</button>
+        <button v-for="t in types" :key="t" @click="filter=t" class="px-4 py-2 rounded border border-gray-700" :class="filter===t ? 'bg-primary hover:bg-primary-hover text-white border-primary' : 'text-primary'">{{ t==='all' ? 'Todos' : t }}</button>
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <VehicleCard v-for="v in filtered" :key="v.id" :item="v" />
